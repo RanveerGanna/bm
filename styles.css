@@ -1,0 +1,377 @@
+/* @group Reset */
+
+/* Don't forget to set a foreground and background color 
+   on the 'html' or 'body' element! */
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	line-height: 1;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+a img, :link img, :visited img {
+	border: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ol, ul {
+	list-style: none;
+}
+q:before, q:after,
+blockquote:before, blockquote:after {
+	content: "";
+}
+
+/* @end */
+
+body {
+	color: #000;
+	background-color: #f5f2d5;
+	text-align: center;
+	font-size: 62.5%;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.ddfl {
+	font-size: 1.1em;
+	width: 1170px;
+	margin: 0 auto;
+	position: relative;
+	text-align: justify;
+}
+
+h1 {
+	height: 396px;
+	text-indent: -9999px;
+	background: url(images/header.png) no-repeat;
+}
+
+.dreadfuls {
+	width: 725px;
+	position: absolute;
+	top: 396px;
+	left: 223px;
+	text-indent: -9999px;
+}
+
+.sidebar {
+	width: 223px;
+	height: 1014px;
+	position: absolute;
+	top: 396px;
+	background-repeat: no-repeat;
+}
+
+.left {
+	left: 0;
+	background-image: url(images/sidebar_left.png);
+}
+
+.right {
+	left: 948px;
+	background-image: url(images/sidebar_right.png);
+}
+
+.footer {
+	width: 1170px;
+	height: 236px;
+	position: absolute;
+	top: 1410px;
+	text-indent: -9999px;
+	background: url(images/footer.png) no-repeat;
+}
+
+.copyright {
+	width: 1170px;
+	position: absolute;
+	top: 1655px;
+	margin: 0;
+	padding-bottom: 10px;
+	text-align: center;
+	background: none;
+}
+
+.dreadfuls h2 {
+	width: 725px;
+	height: 178px;
+	background: url(images/subhead.png) no-repeat;
+	text-indent: -9999px;
+}
+
+.dreadful {
+	width: 362px;
+	height: 272px;
+	background-repeat: no-repeat;
+	position: absolute;
+	background: url(images/dreadfuls/pre_view.png); /* maybe speed loading? */
+	background: url(images/dreadfuls/pre_view_even.png); /* maybe speed loading? */
+}
+
+h3, h4 {
+	text-indent: -9999px;	
+}
+
+.dreadful h3,
+.dreadful span {
+	display: none;
+}
+
+.dreadful a {
+	display: block;
+	width: 362px;
+	height: 272px;
+	text-indent: -9999px;
+}
+
+.dreadful a:hover {
+	background: url(images/dreadfuls/pre_view.png);
+}
+
+.dd4 a:hover,
+.dd5 a:hover,
+.dd6 a:hover {
+	background: url(images/dreadfuls/pre_view_even.png);
+}
+
+.dd1,.dd2,.dd3 {left: 0;}
+.dd4,.dd5,.dd6 {left: 362px;}
+.dd1,.dd4 {top: 178px;}
+.dd2,.dd5 {top: 450px;}
+.dd3,.dd6 {top: 722px;}
+
+/* putchyer images here, numerically from top to bottom, THEN left to right. e.g. .dd3 is the last dreadful in the first column, while .dd4 is the first dreadful in the second column */
+.dd1 {background-image: url(images/dreadfuls/octavious_watt.png);}
+.dd2 {background-image: url(images/dreadfuls/archibald_grey.png);}
+.dd3 {background-image: url(images/dreadfuls/family_fortune.png);}
+.dd4 {background-image: url(images/dreadfuls/jonah_oaktree.png);}
+.dd5 {background-image: url(images/dreadfuls/dressmakers_detective_journal.png);}
+.dd6 {background-image: url(images/dreadfuls/klondike_dozen.png);}
+
+p {
+	width: 170px;
+	margin: 18px 0 0 12px;
+	padding-bottom: 18px;
+	line-height: 1.3em;
+}
+
+.left p {
+	background: url(images/divider.png) no-repeat bottom center;
+}
+
+strong {
+	text-transform: lowercase;
+	font-variant: small-caps;
+	font-size: 1.2em;
+}
+
+h4 {
+	width: 170px;
+	height: 60px;
+}
+
+.left p.first {
+	margin-top: 120px;
+}
+
+.left p.last {
+	background: none;
+}
+
+.left ul {
+	width: 170px;
+	margin: 25px 0 0 12px;
+	padding-bottom: 35px;
+	background: url(images/divider.png) no-repeat bottom center;
+}
+
+.left ul strong {
+	display: block;
+	width: 170px;
+	text-align: center;
+	font-size: 1.4em;
+	margin: 12px 0 0 0;
+}
+
+.left .list_head strong {
+	width: 170px;
+	font-size: 1.1em;
+}
+
+.right a {
+	display: block;
+	color: #000;
+	text-decoration: none;
+}
+
+.right h4 {
+	display: none;
+}
+
+.right div {
+	width: 175px;
+	position: absolute;
+	left: 44px;
+}
+
+.right div a span {
+	line-height: 14px;
+	text-align: justify;
+}
+
+.right .purchase {
+	height: 175px;
+	top: 16px;
+}
+
+.right .purchase a {
+	width: 175px;
+	height: 175px;
+}
+
+/*.right .purchase a:hover {
+	background: url(images/purchase_hover.png) no-repeat;
+}*/
+
+.right .purchase a span {
+	position: relative;
+	top: 75px;
+}
+
+.right .featured {
+	top: 190px;
+	height: 265px;
+	text-indent: -9999px;
+	background: url(images/featured.png) no-repeat bottom;
+}
+
+.right .featured a {
+	width: 175px;
+	height: 265px;
+	position: absolute;
+}
+
+.right .goodies {
+	height: 137px;
+	top: 578px;
+}
+
+.right .goodies a {
+	width: 175px;
+	height: 137px;
+	position: absolute;
+}
+
+.right .goodies a:hover {
+	background: url(images/goodies_hover.png) no-repeat top;
+}
+
+.right .goodies a span {
+	display: block;
+	position: relative;
+	top: 70px;
+}
+
+.right .goodies .penny_pinching {
+	text-indent: 11px;
+}
+
+.right .presskit {
+	height: 84px;
+	top: 715px;
+}
+
+.right .presskit a {
+	width: 175px;
+	height: 84px;
+	position: absolute;
+}
+
+.right .presskit a span {
+	position: relative;
+	top: 65px;
+	display: block;
+	text-align: center;
+	width: 180px;
+}
+
+.right .contact a {
+	position: absolute;
+	width: 129px;
+	height: 31px;
+	top: 869px;
+	left: 23px;
+	text-indent: -9999px;
+}
+
+.right .contact a:hover {
+	background: url(images/wilhelm_hover.png) no-repeat;
+}
+
+.right .contact a.tdr {
+	top: 932px;
+}
+
+.right .contact a.tdr:hover {
+	background: url(images/tdr_hover.png) no-repeat;
+}
+
+.footer a {
+	display: block;
+	width: 287px;
+	height: 168px;
+	text-indent: -9999px;
+	position: absolute;
+}
+
+.footer .ad2,
+.footer .ad3 {
+	width: 297px;
+}
+
+.footer .ad2 {left: 287px;}
+.footer .ad3 {left: 584px;}
+.footer .ad4 {left: 881px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
